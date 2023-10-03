@@ -1,4 +1,5 @@
 import sys
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     #this will gives 3 parameters, but the last one contains information regarding when error occured
